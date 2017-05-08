@@ -8,9 +8,9 @@ You need to specify the following environment variables which are used for deplo
 
 ## Getting Started
 
-1. Add `kaspars/wp-shuttle` as a developer dependency to your project:
+1. Add `kasparsd/wp-shuttle` as a developer dependency to your project:
 
-		$ npm install kaspars/wp-shuttle --save-dev
+		$ npm install kasparsd/wp-shuttle --save-dev
 
 2. Update the Travis CI build script to deploy your repository.
 
