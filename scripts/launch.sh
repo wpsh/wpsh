@@ -10,8 +10,13 @@ fi
 SVN_TAG=${1-"trunk"}
 BUILD_PATH="/tmp/plugin-build"
 SVN_PATH="/tmp/plugin-svn"
-GIT_PATH="$( cd "$(dirname "$0")/.." && pwd )"
+GIT_PATH="$PWD"
 DEPLOY_MESSAGE="Deploy $SVN_TAG"
+
+if [ ! -d "$GIT_PATH/.git" ]; then
+	echo "Current working directory $GIT_PATH must be a Git repository."
+	exit 1
+fi
 
 # Copy project repo to the build
 rm -rf "$BUILD_PATH"
