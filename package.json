@@ -2,6 +2,9 @@
   "name": "wp-shuttle",
   "version": "0.0.1",
   "description": "Helper scripts for automatically deploying WordPress plugins",
+  "bin": {
+    "wp-shuttle": "./scripts/launch.sh"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
