@@ -46,7 +46,7 @@ svn checkout "http://plugins.svn.wordpress.org/$WP_ORG_SLUG/" "$SVN_PATH"
 cd "$SVN_PATH"
 
 # Update trunk only
-if [[ "trunk" == $1 ]]; then
+if [[ "trunk" == $SVN_TAG ]]; then
 	echo "Copying files to SVN trunk."
 	rm -rf "$SVN_PATH/trunk"
 	cp -r "$BUILD_PATH" "$SVN_PATH/trunk"
