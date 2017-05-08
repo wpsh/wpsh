@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+echo "Deploying to plugin SVN."
+
 # Fetch SVN authentication data from the environment variables
 if [[ -z "$WP_ORG_USERNAME" || -z "$WP_ORG_PASSWORD" || -z "$WP_ORG_SLUG" ]]; then
 	echo "Missing WP.org username, password or slug."
@@ -12,6 +14,8 @@ BUILD_PATH="/tmp/plugin-build"
 SVN_PATH="/tmp/plugin-svn"
 GIT_PATH="$PWD"
 DEPLOY_MESSAGE="Deploy $SVN_TAG"
+
+echo "Git path: $GIT_PATH"
 
 if [ ! -d "$GIT_PATH/.git" ]; then
 	echo "Current working directory $GIT_PATH must be a Git repository."
