@@ -16,7 +16,7 @@
 
 3. Use `npm run wpsh` to run the WP Shuttle script.
 
-To run it as `wpsh` instead of `npm  run wpsh` you should add the path to the local npm `bin` folder to the `$PATH` environment variable by appending the following to `~/.bashrc` or `~/.zshrc`:
+To run it as `wpsh` instead of `npm  run wpsh` you should add path to the local npm `bin` folder to the `$PATH` environment variable by appending the following to `~/.bashrc` or `~/.zshrc`:
 
 	export PATH="./node_modules/.bin:$PATH"
 
