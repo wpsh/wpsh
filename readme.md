@@ -25,7 +25,7 @@ and restart the shell to trigger the change.
 
 ## Automatic Deployments with Travis CI
 
-1. Update the Travis CI config `.travis.yml` to deploy your repository when committing to `master` and tagging a release:
+1. Update the Travis CI config `.travis.yml` to deploy your plugin when committing to `master` and tagging a release:
 
 		deploy:
 		  - provider: script
