@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-1. Add `kasparsd/wp-shuttle` as a developer dependency to your project:
+1. Add `wpsh/wpsh` as a developer dependency to your project:
 
 		$ npm install --save-dev wpsh/wpsh
 
