@@ -1,3 +1,5 @@
+<img src="https://kaspars.net/wp-content/uploads/2017/06/wp-shuttle.png" height="100" alt="WP Shuttle Logo" />
+
 # WP Shuttle for Automatic Plugin Deployments
 
 ## Getting Started
