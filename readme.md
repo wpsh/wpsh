@@ -6,7 +6,7 @@
 
 1. Add `kasparsd/wp-shuttle` as a developer dependency to your project:
 
-		$ npm install --save-dev kasparsd/wp-shuttle
+		$ npm install --save-dev wpsh/wpsh
 
 	Run `npm init` if your project is missing the `package.json` file.
 
